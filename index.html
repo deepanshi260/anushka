@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Transition Cake</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cake-container">
+        <div class="cake-base">
+            <div class="cake-layer layer3"></div>
+            <div class="cake-layer layer2"></div>
+            <div class="cake-layer layer1"></div>
+            <div class="frosting"></div>
+            <div class="candles">
+                <div class="candle" style="--i: 0"></div>
+                <div class="candle" style="--i: 1"></div>
+                <div class="candle" style="--i: 2"></div>
+                <div class="candle" style="--i: 3"></div>
+                <div class="candle" style="--i: 4"></div>
+            </div>
+        </div>
+            <div class="sparkles">
+                <div class="sparkle" style="--i: 0"></div>
+                <div class="sparkle" style="--i: 1"></div>
+                <div class="sparkle" style="--i: 2"></div>
+                <div class="sparkle" style="--i: 3"></div>
+                <div class="sparkle" style="--i: 4"></div>
+                <div class="sparkle" style="--i: 5"></div>
+            </div>
+        </div>
+        
+        <div class="birthday-text">
+            <h1 class="birthday-message">Happy Birthday!</h1>
+            <p class="birthday-wish">Wishing you a day filled with joy and happiness!</p>
+        </div>
+        
+        <button class="celebrate-btn" onclick="celebrate()">🎂 Celebrate! 🎂</button>
+    </div>
+
+    <div class="confetti-container" id="confetti"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
